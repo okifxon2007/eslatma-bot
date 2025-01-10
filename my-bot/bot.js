@@ -31,7 +31,8 @@ const getData = () => {
     });
 };
 
-setInterval(getData, 10 * 1000);
+setInterval(getData, 3600 * 1000);
+
 
 bot.start((ctx) => ctx.reply('Salom! Men sizning Telegram botingizman.'));
 bot.help((ctx) => ctx.reply('Savollaringiz bo\'lsa, shunchaki yozing!'));
